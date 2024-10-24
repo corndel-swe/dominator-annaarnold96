@@ -9,6 +9,12 @@
 export function main() {
   // TODO: Call the functions in the correct order
   // TODO: Return the product of the three returned values
+const first = meFirst()
+const middle = meMiddle()
+const last = meLast()
+let number = (first*middle*last)
+
+return(number)
 }
 
 function meFirst() {
@@ -25,3 +31,5 @@ function meLast() {
   console.log('last!')
   return 23
 }
+
+

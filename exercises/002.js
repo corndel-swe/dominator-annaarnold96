@@ -8,6 +8,8 @@
  */
 export function increment(num) {
   // TODO: increase the value of num by 1
+  let number = num + 1
+  num = number
 
   return num // Don't change this line
 }
@@ -20,6 +22,8 @@ export function increment(num) {
  */
 export function decrement(num) {
   // TODO: decrease the value of num by 1
+  let number = num - 1
+  num = number
 
   return num // Don't change this line
 }
